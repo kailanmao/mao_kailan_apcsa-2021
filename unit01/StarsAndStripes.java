@@ -1,10 +1,10 @@
-//© A+ Computer Science
+//Â© A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
-//Lab  -
+//Name - Kailan Mao
+//Date - 2/1/21
+//Class - AP CSA
+//Lab  - StarsAndStripes
 
 import static java.lang.System.*;
 
