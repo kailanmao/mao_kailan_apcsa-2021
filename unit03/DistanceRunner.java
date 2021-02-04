@@ -1,10 +1,10 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
-//Lab  -
+//Name - KAILAN M
+//Date - 2/3/21
+//Class - AP CSA
+//Lab  - DISTANCE
 
 import java.util.Scanner; 
 import static java.lang.System.*;
