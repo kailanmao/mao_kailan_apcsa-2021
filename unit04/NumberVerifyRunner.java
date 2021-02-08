@@ -1,10 +1,10 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date - 
-//Class -
-//Lab  -
+//Name - KAILAN M
+//Date - 2/7/21
+//Class - AP CSA
+//Lab  - DISCOUNT
 
 import static java.lang.System.*;
 import java.util.Scanner;
