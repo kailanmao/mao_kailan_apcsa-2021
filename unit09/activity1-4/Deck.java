@@ -45,6 +45,7 @@ public class Deck {
 			}
 		}
 		cards = tempCards;
+		shuffle();
 		
 	}
 
