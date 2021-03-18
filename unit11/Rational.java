@@ -39,7 +39,7 @@ class Rational implements Comparable<Rational>
 		//num1/den1 + num2/den2 
 		//new numerator = (num1 * den2 + num2 * den1)
 		//new denominator = (den1 * den2)
-		setNumerator(numerator * other.getDenominator() + other.getNumerator() + denominator);
+		setNumerator(numerator * other.getDenominator() + other.getNumerator() * denominator);
 		setDenominator(denominator * other.getDenominator());
 		reduce();
 	}
@@ -54,7 +54,7 @@ class Rational implements Comparable<Rational>
 	private int gcd(int numOne, int numTwo)
 	{
 		int gcd = 1;
-		for (int i=0; i<=numOne; i++)
+		for (int i=1; i<=numOne; i++)
 		{
 			if (numOne%i==0 && numTwo%i==0) gcd = i;
 		}
@@ -87,6 +87,15 @@ class Rational implements Comparable<Rational>
 
 		if ((double)obj == (double)(numerator/denominator)) return true;
 
+		return false;
+	}
+	
+	public boolean equals(Rational r)
+	{
+		if ((double)(numerator/denominator) == (double)(r.getNumerator()/r.getDenominator()))
+		{
+			return true;
+		}
 		return false;
 	}
 
