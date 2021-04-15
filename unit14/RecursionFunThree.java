@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name - 
 //Date -
 //Class -
@@ -22,8 +22,8 @@ public class RecursionFunThree
 	{
 		if (number % 3 == 0 && number > 3)
 		{
-			return 1 + luckyThrees((long) (number/10));
-		}
-		return luckyThrees((long) (number/10));
+			return 1 + luckyThrees(number/10);
+		} else if (number % 3 != 0)return luckyThrees(number/10);
+		return 0;
 	}
 }
