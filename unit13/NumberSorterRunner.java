@@ -1,6 +1,6 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
+//Name - Kailan Mao
 
 import java.util.Arrays;
 import static java.lang.System.*; 
